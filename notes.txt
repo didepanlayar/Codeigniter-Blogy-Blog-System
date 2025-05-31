@@ -1,0 +1,7 @@
+1. Download Codeigniter from official website and then extract to create a new project.
+2. Rename the env file to .env then change environment and database configuration.
+3. Goto app/Config/App.php
+    - $baseURL = 'http://website.com/'
+    - $indexPage = ''
+    - $uriProtocol = 'PATH_INFO'
+4. Copy public/index.php to outside from public directory and change FCPATH.
